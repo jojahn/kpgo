@@ -1,3 +1,3 @@
-# kpgo01
+# (K)onzepte der (P)rogrammiersprachen mit (GO)
 
-Konzepte der Programmiersprachen (Go) 1
+Die [Aufgaben](https://github.com/0xqab/concepts-of-programming-languages) sind hier: https://github.com/0xqab/concepts-of-programming-languages
