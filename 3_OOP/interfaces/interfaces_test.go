@@ -8,6 +8,7 @@ import (
 func TestInterfaces(t *testing.T) {
 	var d Door = false
 	d.Open()
+	d.Close()
 
 	positionA := Position{1,2}
 	positionB := Position{3,4}

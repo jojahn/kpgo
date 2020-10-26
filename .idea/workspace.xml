@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_OOP/interfaces/interfaces_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/3_OOP/interfaces/interfaces_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_OOP/mail/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/3_OOP/mail/util/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,14 +140,18 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="1458" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603019701385" />
-    <state x="252" y="125" key="SettingsEditor" timestamp="1603109037618">
+    <state x="252" y="125" key="SettingsEditor" timestamp="1603112215441">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1603109037618" />
+    <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1603112215441" />
     <state x="568" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603020712276">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="568" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1603020712276" />
+    <state x="594" y="241" key="refactoring.ChangeSignatureDialog" timestamp="1603710553601">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="594" y="241" key="refactoring.ChangeSignatureDialog/0.0.1500.960@0.0.1500.960" timestamp="1603710553601" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kpgo$TestSwapPointers_in_swap_test_go.out" NAME="TestSwapPointers in swap_test.go Coverage Results" MODIFIED="1603019427900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -10,17 +10,10 @@ type Registry struct {
 
 func NewRegistry() Registry {
 	services := make(map[string]interface{})
+	services["mail.Sender"] = smtp.SenderImpl{}
 	return Registry{services}
 }
 
 func (r *Registry) Get(locator string) interface{} {
-	if r.services[locator] != nil {
-		return r.services[locator]
-	}
-	if locator == "mail.Sender" {
-		var sender interface{} = smtp.SenderImpl{}
-		r.services[locator] = sender
-		return sender
-	}
-	return nil
+	return r.services[locator]
 }
