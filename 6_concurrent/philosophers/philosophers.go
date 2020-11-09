@@ -8,15 +8,17 @@ import (
 type Fork bool
 
 type Table struct {
-	forks []Fork
-	count int
-	putForksChannel chan int
-	requestForksChannel chan int
-	successChannel []chan bool 
+	hungryPhilosophers []int
+	forks                  []Fork
+	count                  int
+	putForksChannel        chan int
+	requestForksChannel    chan int
+	successChannel         []chan bool
 }
 
 func NewTable(count int) Table {
 	forks := make([]Fork, count)
+	hungryPhilosophers := make([]int, 0)
 	for i := 0; i < count; i++ {
 		forks = append(forks, true)
 	}
@@ -29,6 +31,7 @@ func NewTable(count int) Table {
 		putForksChannel: putForksChannel,
 		requestForksChannel: requestForksChannel,
 		successChannel: successChannel,
+		hungryPhilosophers: hungryPhilosophers,
 	}
 	return table
 }
@@ -55,7 +58,7 @@ func (t *Table) run() {
 type Philosopher struct {
 	id int
 	table *Table
-	lastTimeEaten time.Timestamp
+	lastTimeEaten time.Time
 }
 
 func NewPhilosopher(id int, table *Table) Philosopher {
@@ -85,7 +88,7 @@ func (p *Philosopher) takeForks() {
 func (p *Philosopher) eat() {
 	fmt.Printf("#%d eating\n", p.id)
 	time.Sleep(1 * time.Second)
-	p.lastTimeEaten.lastTimeEaten = time.Now()
+	p.lastTimeEaten = time.Now()
 }
 
 func (p *Philosopher) putForks() {

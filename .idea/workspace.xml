@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_OOP/interfaces/interfaces_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/3_OOP/interfaces/interfaces_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_OOP/mail/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/3_OOP/mail/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_concurrent/philosophers/philosophers.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_concurrent/philosophers/philosophers.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../software/goroot" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,6 +40,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
