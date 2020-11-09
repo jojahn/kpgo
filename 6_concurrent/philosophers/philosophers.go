@@ -55,6 +55,12 @@ func (t *Table) run() {
 	}
 }
 
+func (x Philosopher) isHungrierThan(y Philosopher) bool {
+	tx := x.lastTimeEaten.Unix() - time.Now().Unix()
+	ty := y.lastTimeEaten.Unix() - time.Now().Unix()
+	return tx < ty
+}
+
 type Philosopher struct {
 	id int
 	table *Table
@@ -68,7 +74,7 @@ func NewPhilosopher(id int, table *Table) Philosopher {
 
 func (p *Philosopher) run() {
 	for {
-		p.takeForks() 
+		p.takeForks()
 		p.eat()
 		p.putForks()
 		p.think()
@@ -77,7 +83,7 @@ func (p *Philosopher) run() {
 
 func (p *Philosopher) takeForks() {
 	fmt.Printf("#%d taking forks\n", p.id)
-	var success bool = true
+	success := true
 	for !success {
 		p.table.requestForksChannel <- p.id
 		success = <- p.table.successChannel[p.id]
@@ -87,7 +93,7 @@ func (p *Philosopher) takeForks() {
 
 func (p *Philosopher) eat() {
 	fmt.Printf("#%d eating\n", p.id)
-	time.Sleep(1 * time.Second)
+	time.Sleep(1 * time.Millisecond)
 	p.lastTimeEaten = time.Now()
 }
 
@@ -98,5 +104,5 @@ func (p *Philosopher) putForks() {
 
 func (p *Philosopher) think() {
 	fmt.Printf("#%d thinking\n", p.id)
-	time.Sleep(1 * time.Second)
+	time.Sleep(1 * time.Millisecond)
 }

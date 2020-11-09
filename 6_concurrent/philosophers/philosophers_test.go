@@ -19,5 +19,5 @@ func TestPhilosophers(t *testing.T) {
 	go table.run()
 
 	// simulate 10 milliseconds --> check output
-	time.Sleep(10 * time.Second)
+	time.Sleep(10 * time.Millisecond)
 }
