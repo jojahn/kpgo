@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Parsers/lexer/lexer.go" beforeDir="false" afterPath="$PROJECT_DIR$/4_Parsers/lexer/lexer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Parsers/lexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/4_Parsers/lexer/lexer_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +69,7 @@
       <recent name="G:\codebase\src\github.com\jojahn\kpgo\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestLexer in github.com/jojahn/kpgo/4_Parsers/lexer">
+  <component name="RunManager">
     <configuration name="TestEval in github.com/jojahn/kpgo/4_Parsers/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="kpgo" />
       <working_directory value="$PROJECT_DIR$/4_Parsers/parser" />
@@ -125,17 +123,18 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Test.TestLexer in github.com/jojahn/kpgo/4_Parsers/lexer" />
-        <item itemvalue="Go Test.go test github.com/jojahn/kpgo/4_Parsers/parser" />
-        <item itemvalue="Go Test.TestEval in github.com/jojahn/kpgo/4_Parsers/parser" />
-        <item itemvalue="Go Test.TestParser in github.com/jojahn/kpgo/4_Parsers/parser" />
-        <item itemvalue="Go Test.TestSwapPointers in swap_test.go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="" />
+      <created>1606741889494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606741889494</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -149,6 +148,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="532" y="186" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602576986712">
@@ -179,10 +179,11 @@
     </state>
     <state width="1458" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603019701385" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604933504469" />
-    <state x="252" y="125" key="SettingsEditor" timestamp="1603112215441">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="312" y="151" key="SettingsEditor" timestamp="1606742421211">
+      <screen x="0" y="28" width="1857" height="947" />
     </state>
     <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1603112215441" />
+    <state x="312" y="151" key="SettingsEditor/0.28.1857.947@0.28.1857.947" timestamp="1606742421211" />
     <state x="-1193" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604924201982">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -192,10 +193,5 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="594" y="241" key="refactoring.ChangeSignatureDialog/0.0.1500.960@0.0.1500.960" timestamp="1603710553601" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/kpgo$TestSwapPointers_in_swap_test_go.out" NAME="TestSwapPointers in swap_test.go Coverage Results" MODIFIED="1603019427900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/kpgo$TestStack_in_stack_test_go.out" NAME="TestStack in stack_test.go Coverage Results" MODIFIED="1602576957785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/kpgo$go_test_rational.out" NAME="go test rational Coverage Results" MODIFIED="1602597833592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
