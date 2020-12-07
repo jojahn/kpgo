@@ -24,7 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Systems_Engineering/container/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Enterprise_Programming/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_Enterprise_Programming/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Enterprise_Programming/client/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/10_Enterprise_Programming/client/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Enterprise_Programming/mail/impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_Enterprise_Programming/mail/impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Enterprise_Programming/mail/mail.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_Enterprise_Programming/mail/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Enterprise_Programming/run.ps1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +64,10 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/9_WebAssembly/mandelbrot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_Enterprise_Programming/mail/v2" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonas\go\src\github.com\jojahn\kpgo\9_WebAssembly\mandelbrot" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jonas\go\src\github.com\jojahn\kpgo\7_Distributed\raft\cluster" />
       <recent name="G:\codebase\src\github.com\jojahn\kpgo\3_OOP\mail\mail" />
@@ -74,8 +75,12 @@
       <recent name="G:\codebase\src\github.com\jojahn\kpgo\swap" />
       <recent name="G:\codebase\src\github.com\jojahn\kpgo\a" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonas\go\src\github.com\jojahn\kpgo\10_Enterprise_Programming\mail\v2" />
+      <recent name="C:\Users\Jonas\go\src\github.com\jojahn\kpgo\9_WebAssembly\mandelbrot" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/jojahn/kpgo/8_Systems_Programming/cgo">
+  <component name="RunManager" selected="Go Test.TestClient in github.com/jojahn/kpgo/10_Enterprise_Programming/client">
     <configuration name="go build github.com/jojahn/kpgo/8_Systems_Programming/cgo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="kpgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -83,6 +88,17 @@
       <filePath value="$PROJECT_DIR$/8_Systems_Programming/cgo/cgo.go" />
       <package value="github.com/jojahn/kpgo/8_Systems_Programming/cgo" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestClient in github.com/jojahn/kpgo/10_Enterprise_Programming/client" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="kpgo" />
+      <working_directory value="$PROJECT_DIR$/10_Enterprise_Programming/client" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jojahn/kpgo/10_Enterprise_Programming/client" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestClient\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestEval in github.com/jojahn/kpgo/4_Parsers/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -107,17 +123,6 @@
       <pattern value="^\QTestLexer\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParser in github.com/jojahn/kpgo/4_Parsers/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="kpgo" />
-      <working_directory value="$PROJECT_DIR$/4_Parsers/parser" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/jojahn/kpgo/4_Parsers/parser" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestParser\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go test github.com/jojahn/kpgo/4_Parsers/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="kpgo" />
       <working_directory value="$PROJECT_DIR$/4_Parsers/parser" />
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestClient in github.com/jojahn/kpgo/10_Enterprise_Programming/client" />
         <item itemvalue="Go Build.go build github.com/jojahn/kpgo/8_Systems_Programming/cgo" />
         <item itemvalue="Go Test.TestLexer in github.com/jojahn/kpgo/4_Parsers/lexer" />
         <item itemvalue="Go Test.go test github.com/jojahn/kpgo/4_Parsers/parser" />
         <item itemvalue="Go Test.TestEval in github.com/jojahn/kpgo/4_Parsers/parser" />
-        <item itemvalue="Go Test.TestParser in github.com/jojahn/kpgo/4_Parsers/parser" />
       </list>
     </recent_temporary>
   </component>
@@ -190,29 +195,29 @@
     </state>
     <state x="532" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1603109034873" />
     <state x="681" y="256" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605206338129" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606749208258">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1607345180749">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="256" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603019701386" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604939889055" />
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607345180748" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606749208258" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606749208257">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1607345180748">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="256" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603019701385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604939889055" />
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607345180748" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606749208257" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606749208257">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1607345180748">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="256" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603019701385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604939889055" />
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607345180748" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606749208257" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606749208257">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1607345180748">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1458" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603019701385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604939889055" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607345180748" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606749208257" />
     <state x="323" y="135" key="SettingsEditor" timestamp="1606738038038">
       <screen x="0" y="0" width="1920" height="1040" />

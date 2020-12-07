@@ -5,7 +5,7 @@ type Sender interface {
 }
 
 type Message struct {
-	subject string
-	topic string
-	content string
+	Subject string
+	Topic string
+	Content string
 }

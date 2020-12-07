@@ -8,7 +8,7 @@ type LogSender struct {
 	Sender
 }
 
-func (s *LogSender) Send(message Message) {
+func (s *LogSender) Send(message Mail) {
 	log.WithFields(log.Fields{
 		"subject": message.Subject,
 		"topic": message.Topic,
