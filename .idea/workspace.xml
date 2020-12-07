@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="" />
+    <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Systems_Engineering/container/container.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +59,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/9_WebAssembly/mandelbrot" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
@@ -160,16 +164,23 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
     <state x="724" y="228" width="471" height="601" key="#Build_Tags_&amp;_Vendoring" timestamp="1606738114763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1196" y="228" width="471" height="601" key="#Build_Tags_&amp;_Vendoring/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606137210881" />
     <state x="724" y="228" key="#Build_Tags_&amp;_Vendoring/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606738114763" />
-    <state x="-1199" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606133936006">
+    <state x="-1168" y="353" key="#Go_Modules" timestamp="1607342440191">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1199" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606133936006" />
+    <state x="-1168" y="353" key="#Go_Modules/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607342440191" />
+    <state x="-1199" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607338668426">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1199" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607338668426" />
     <state x="532" y="186" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602576986712">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
