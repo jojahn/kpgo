@@ -9,7 +9,3 @@ type Mail struct {
 	Topic string
 	Content string
 }
-
-func NewSender() *LogSender {
-	return &LogSender{}
-}
