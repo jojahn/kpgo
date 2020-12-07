@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>GO WASM Mandelbrot</title>
+</head>
+<body>
+<img id="image" src="">
+<script>
+    document.getElementById("image").src = " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQAAAAA2RLUcAAAABGdBTUEAALGPC/xhBQAAAAJiS0dEAAHdihOkAAAAB3RJTUUH5AsPECUqQdxoMgAAAGpJREFUGNOt0LENgCAQheF3obBkBEdhNBmNURiBksKA9zSnCQYrab6Sez/6+RLmZrmMCLQBnlbA0QIIzQBoUjc1qkFVsCY06h93ujxW6t4WKv87+2+8a7zb9tz7bK/ttx7Wx3pZv17ko/cB/caa7HEsGrQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMTEtMTVUMTU6Mzc6NDIrMDE6MDATkZwSAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTExLTE1VDE1OjM3OjQyKzAxOjAwYswkrgAAAABJRU5ErkJggg=="
+</script>
+
+<script src="wasm_exec.js"></script>
+<script>
+    const go = new Go();
+
+    fetch('lib.wasm')
+        .then(response => response.arrayBuffer())
+        .then(bytes => WebAssembly.instantiate(bytes, go.importObject))
+        .then(result => {
+                go.run(result.instance)
+                setTimeout(() => {
+                    console.log("add: ", add(1, 1))
+                }, 1000)
+            }
+        );
+</script>
+</body>
+</html>
