@@ -15,13 +15,13 @@ func main() {
 	}
 }
 
-func must(err error) {
+func must_(err error) {
 	if err != nil {
 		panic(err)
 	}
 }
 
-func run() {
+func run_() {
 	log.Printf("Running %v \n", os.Args[1:])
 
 	cmd := exec.Command(os.Args[2], os.Args[3:]...)

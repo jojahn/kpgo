@@ -22,16 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kpgo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kpgo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_concurrent/generator/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_Concurrent/generator/generator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_concurrent/generator/generator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_Concurrent/generator/generator_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_concurrent/philosophers/philosophers.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_Concurrent/philosophers/philosophers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_concurrent/philosophers/philosophers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_Concurrent/philosophers/philosophers_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_concurrent/timeout/timeout.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_Concurrent/timeout/timeout.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_concurrent/timeout/timeout_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/6_Concurrent/timeout/timeout_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="54492d9a-c6b2-455f-ba0d-665586124b8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,5 +218,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="594" y="241" key="refactoring.ChangeSignatureDialog/0.0.1500.960@0.0.1500.960" timestamp="1603710553601" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kpgo$TestSwapPointers_in_swap_test_go.out" NAME="TestSwapPointers in swap_test.go Coverage Results" MODIFIED="1603019427900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kpgo$TestStack_in_stack_test_go.out" NAME="TestStack in stack_test.go Coverage Results" MODIFIED="1602576957785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kpgo$go_test_rational.out" NAME="go test rational Coverage Results" MODIFIED="1602597833592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
